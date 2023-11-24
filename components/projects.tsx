@@ -28,7 +28,7 @@ export default function Projects() {
                             <div className=" flex flex-col gap-3">
                                 <h3 className="text-black text-2xl font-medium sm-425:text-center">{name}</h3>
                                 <p className="text-[#8e9196] text-left sm-425:text-left">{description}</p>
-                                <Link href={url} target="_blank" className="text-c-red text-lg font-medium flex items-center hover:underline ">
+                                <Link href={url} target="_blank" className="text-c-red text-lg p-2 font-medium flex items-center hover:underline sm-425:justify-center">
                                    <span>Full View</span> 
                                    <MdArrowRightAlt className="w-10 h-10 text-2xl" />
 

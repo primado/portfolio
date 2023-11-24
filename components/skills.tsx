@@ -46,7 +46,7 @@ export default function Skills() {
                 <div className="text-center">
                     <h2 className="text-black font-semibold text-3xl">Skills</h2>
                 </div>
-                <div className="grid grid-cols-4 place-content-center max-w-max justify-center items-center gap-x-8 gap-y-5 sm-425:grid sm-425:grid-cols-2  md-768:flex md-768:flex-wrap md-768:gap-y-5 px-12 flex-wrap sm-320:!grid sm-320:!grid-cols-2 sm-430:grid sm-320:grid-cols-2 ">
+                <div className="grid grid-cols-4 place-content-center max-w-max justify-center items-center gap-x-8 gap-y-5 sm-425:grid sm-425:grid-cols-2  md-768:flex md-768:flex-wrap md-768:gap-y-5 px-12 flex-wrap sm-320:!grid sm-320:!grid-cols-2 sm-430:grid sm-360:!grid sm-360:!grid-cols-2 ">
 
                     <Items />
 
