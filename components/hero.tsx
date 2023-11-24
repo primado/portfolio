@@ -23,7 +23,7 @@ export default function Hero() {
                             </p>
                         </div>
                         <div className="">
-                            <Link href="https://drive.google.com/file/d/1Qyd2Mmq8YUCDRZ7eySJJBSPI_LTw-yWe/view?usp=sharing" target="_blank" className="flex items-center gap-3 justify-center flex-row hover:bg-gray-500 max-w-max hover:bg-opacity-25 hover:font-semibold p-2 rounded-md transition-all hover:delay-150 hover:duration-100">
+                            <Link href="https://drive.google.com/file/d/1SL90KnVSC64KY8PvrYpnLko-4vK2KCz7/view?usp=sharing" target="_blank" className="flex items-center gap-3 justify-center flex-row hover:bg-gray-500 max-w-max hover:bg-opacity-25 hover:font-semibold p-2 rounded-md transition-all hover:delay-150 hover:duration-100">
                                 View my Resume
                                 <BsDownload className="text-black text-base font-bold " />
                             </Link>
