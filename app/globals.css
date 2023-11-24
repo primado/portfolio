@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: #eff2f1;
+  --background-start-rgb: #eff2f1;
+  --background-end-rgb: #eff2f1;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: #eff2f1;
+    --background-start-rgb: #eff2f1;
+    --background-end-rgb: #eff2f1;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -25,3 +25,29 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+
+/* styles.css */
+
+/* Set the width of the entire carousel container */
+.custom-carousel-container {
+  width: 100% !important;
+  display: flex;
+  gap: 1rem; /* Example: 100% width */
+}
+
+/* Adjust the width of the carousel stage */
+.alice-carousel.__ssr,
+.alice-carousel {
+  width: 100% !important;
+  
+}
+
+/* Adjust the width of the carousel items */
+.alice-carousel__stage-item {
+  width: 10rem !important; /* Example: 100% width */
+  /* Add margin between items if needed */
+}
+
+/* Add additional styling for other carousel components as needed */
