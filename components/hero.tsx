@@ -23,9 +23,9 @@ export default function Hero() {
                             </p>
                         </div>
                         <div className="">
-                            <Link href="https://drive.google.com/file/d/1Qyd2Mmq8YUCDRZ7eySJJBSPI_LTw-yWe/view?usp=sharing" target="_blank" className="flex items-center gap-3 justify-center flex-row hover:bg-gray-500 max-w-max hover:bg-opacity-30 p-2 rounded-md">
+                            <Link href="https://drive.google.com/file/d/1Qyd2Mmq8YUCDRZ7eySJJBSPI_LTw-yWe/view?usp=sharing" target="_blank" className="flex items-center gap-3 justify-center flex-row hover:bg-gray-500 max-w-max hover:bg-opacity-25 hover:font-semibold p-2 rounded-md transition-all hover:delay-150 hover:duration-100">
                                 View my Resume
-                                <BsDownload className="text-black text-base font-bold" />
+                                <BsDownload className="text-black text-base font-bold " />
                             </Link>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ export default function Hero() {
                         <div className="flex flex-col gap-y-5  sm-425:flex sm-425:flex-col sm-425:gap-y-3 sm-430:gap-3">
                             <h2 className="capitalize text-black font-bold text-2xl text-right sm-425:text-center sm-430:text-center">I&apos;ve a burning desire to translate design to code for web applications with responsiveness in mind</h2>
                             <p className="text-black text-base flex flex-row gap-x-2 justify-end sm-425:justify-center sm-425:flex-col sm-425:items-center sm-430:justify-center sm-430:items-center">Sound interesting? 
-                                <Link href="https://linkedin.com/in/primado" target="_blank" className="text-c-red ">Let&apos;s talk</Link>
+                                <Link href="https://linkedin.com/in/primado" target="_blank" className="text-c-red hover:underline hover:transition-all hover:ease-in-out  ">Let&apos;s talk</Link>
                             </p>
                         </div>
                         <div className="">
