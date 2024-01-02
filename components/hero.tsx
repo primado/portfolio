@@ -16,7 +16,7 @@ export default function Hero() {
             <div className=" md-768:px-12 px-12">
                 <div className="flex flex-col gap-y-16 justify-center items-center gap-3 sm-425:px-5 sm-430:px-1">
                     <div className="flex flex-col justify-center items-center gap-y-3 sm-425:gap-y-3">
-                        <h1 className="text-black text-5xl text-center font-semibold break-words sm-320:text-3xl sm-320:border-2 sm-320:border-black sm-425:p-3 sm-425:w-full sm-425:h-[12rem] sm-320:h-[6rem] sm-430:h-[11rem]">Hi, I&apos;m <span className="!text-c-red">
+                        <h1 className="text-black text-5xl text-center font-semibold break-words sm-320:text-3xl sm-320:border-2 sm-320:border-black sm-425:p-3 sm-425:w-full sm-425:h-[12rem] sm-320:h-[7rem] sm-430:h-[12rem]">Hi, I&apos;m <span className="!text-c-red">
                             <TypingAnimation 
                                 strings={['Prince Adimado', 'a Software Developer', 'Frontend Developer']}
                                 typeSpeed={30}
