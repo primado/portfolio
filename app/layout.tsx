@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,7 +18,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
+          <GoogleAnalytics 
+                ga_id={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}
+          />
+
+        ): null}
+
+        {children}
+      </body>
     </html>
   )
 }
