@@ -22,6 +22,7 @@ const config: Config =  ({
       },
 
       screens: {
+        'sm-280': {'max': '282px'},
         'sm-320': {'max': '323px'},
         'sm-360': {'max': '365px'},
         'sm-425': {"max": '428px'},
