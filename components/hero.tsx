@@ -27,7 +27,7 @@ export default function Hero() {
                         </h1>
                         <div className="text-center sm-425:text-center lg:px-[15rem] s">
                             <p className="text-txt-gray text-base break-words p-3">
-                                With <span className="bg-c-red text-white px-1">{ experience } years</span>  of experience in web development with knowledge in Backend and <span className="!text-c-red font-semibold">Frontend Development</span> {' '} 
+                                With <span className="bg-c-red text-white px-1">{ experience } years</span>  of experience in web development with understanding in Backend Development with Django and <span className="!text-c-red font-semibold">Frontend Development</span> {' '} 
                                 I&apos;m able to understand and colloborate with other developers and designers to build a good responsive product to the market.
                             </p>
                         </div>
