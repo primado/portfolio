@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Prince Adimado's Portfolio Website",
   description: 'Portfolio Website of Prince Adimado,  a Software Developer.',
   icons: {
-    icon: 'app/favicon.ico'
+    icon: 'app/icon.png'
   }
 
 }
