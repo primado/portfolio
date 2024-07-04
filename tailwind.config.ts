@@ -25,6 +25,7 @@ const config: Config =  ({
         'sm-280': {'max': '282px'},
         'sm-320': {'max': '323px'},
         'sm-360': {'max': '365px'},
+        'sm-390': {'max': '392px'},
         'sm-425': {"max": '428px'},
         'sm-430': {'max': '435px'},
         'md-768': {'max': '769px'},
