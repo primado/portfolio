@@ -17,7 +17,7 @@ interface TypingAnimationProps {
 export default function TypingAnimation({
     strings,
     typeSpeed = 50,
-    backSpeed = 30,
+    backSpeed = 50,
     loop = true
 }: TypingAnimationProps)  {
     const typedRef = useRef(null);
