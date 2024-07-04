@@ -33,7 +33,7 @@ export default function Socials() {
                         </Link>
                     </div>
                     <div className="bg-white shadow-xl p-2 hover:bg-gray-200">
-                        <Link href="https://github.com/primado/" >
+                        <Link href="https://github.com/primado/" target="_blank" >
                         <Image 
                             alt="LinkedIN"
                             src={github}
