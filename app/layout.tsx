@@ -6,10 +6,21 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://prince-adimado.vercel.app'),
   title: "Prince Adimado's Portfolio Website",
-  description: 'Portfolio Website of Prince Adimado,  a Software Developer.',
+  description: "Prince Adimado is Software Developer.",
   icons: {
-    icon: 'app/icon2.png'
+    icon: 'icon/icon.png'
+  },
+  openGraph: {
+    title: "Prince Adimado's Portfolio Website",
+    description: "Prince Adimado is a Software Developer.",
+    images: '/opengraph-image.png'
+  },
+  twitter: {
+    title: "Prince Adimado's Portfolio Website",
+    description: "Prince Adimado is a Software Developer.",
+    images: '/twitter-image.png'
   }
 
 }
@@ -22,9 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
+        {process.env.GOOGLE_ANALYTICS_kEY ? (
           <GoogleAnalytics 
-                ga_id={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}
+                ga_id={process.env.GOOGLE_ANALYTICS_KEY}
           />
 
         ): null}
