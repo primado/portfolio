@@ -35,12 +35,13 @@ export default function Hero() {
                         <div className="">
                             {/* <Link href="https://drive.google.com/file/d/1GBKKY1ESgynJv-UmFQQ9hlDsC-EVRU8N/view?usp=sharing" target="_blank" className="flex items-center gap-3 justify-center flex-row hover:bg-gray-500 max-w-max hover:bg-opacity-25 hover:font-semibold p-2 rounded-md transition-all hover:delay-150 hover:duration-100">
                                 View my Resume
-                                <BsDownload className="text-black text-base font-bold " />
+                                
                             </Link> */}
                             <button 
-                                onClick={() => window.open('/assets/Prince-Adimado-CV.pdf', '_blank')}
+                                onClick={() => window.open('/resume/Prince-Adimado-resume.pdf', '_blank')}
                                 className="flex items-center gap-3 justify-center flex-row hover:bg-gray-500 max-w-max hover:bg-opacity-25 hover:font-semibold p-2 rounded-md transition-all hover:delay-150 hover:duration-100"
                             >
+                                <BsDownload className="text-black text-base font-bold " />
                                 View my Resume
                             </button>
                         </div>
