@@ -7,18 +7,18 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://prince-adimado.vercel.app'),
-  title: "Prince Adimado | Software Developer",
+  title: "Prince Adimado - Software Developer",
   description: "Prince Adimado's Portfolio Website .",
   icons: {
     icon: 'icon/icon.png'
   },
   openGraph: {
-    title: "Prince Adimado | Software Developer",
-    description: "Prince Adimado | Software Developer",
+    title: "Prince Adimado - Software Developer",
+    description: "Prince Adimado's Portfolio Website",
     images: '/opengraph-image.png'
   },
   twitter: {
-    title: "Prince Adimado | Software Developer",
+    title: "Prince Adimado - Software Developer",
     description: "Prince Adimado's Portfolio Website",
     images: '/twitter-image.png'
   }
