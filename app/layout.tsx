@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import './globals.css'
+import Script from 'next/script'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,14 +34,22 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google tag (gtag.js) */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-V8B817QHE5"></Script>
+        <Script id='google-analytics' strategy='afterInteractive'>
+          {
+            `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-V8B817QHE5');
+            `
+          }
+        </Script>
+      </head>
       <body className={inter.className}>
-        {process.env.GOOGLE_ANALYTICS_kEY ? (
-          <GoogleAnalytics 
-                ga_id={process.env.GOOGLE_ANALYTICS_KEY}
-          />
-
-        ): null}
-
         {children}
       </body>
     </html>
